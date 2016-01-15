@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:showDividers="none"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bg_layout"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/common_white">
+
+            <RelativeLayout
+                android:id="@+id/tool_bar_btn_back"
+                android:layout_width="50dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tb_common_btn_back_height"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/tb_common_btn_back_padding_left_and_right"
+                    android:layout_marginRight="@dimen/tb_common_btn_back_padding_left_and_right"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_back" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tool_bar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Title"
+                android:textColor="@color/black_text"
+                android:textSize="@dimen/text_toolbar_title" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tb_common_delive_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bg_divide_line" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+
+

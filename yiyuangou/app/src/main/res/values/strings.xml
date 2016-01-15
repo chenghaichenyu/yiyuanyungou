@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">一元云购</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="default_toolbar_title"> </string>
+    <string name="act_main_title">一元云购</string>
+
+    <!-- MainAct -->
+    <string name="act_main_tab_string_home">首页</string>
+    <string name="act_main_tab_string_all_good">所有商品</string>
+    <string name="act_main_tab_string_latest_announcement">最新揭晓</string>
+    <string name="act_main_tab_string_shopping_cart">购物车</string>
+    <string name="act_main_tab_string_personal_center">我的云购</string>
+
+    <!-- 首页 -->
+
+    <!-- 所有商品 -->
+    <string name="frg_all_good_title">所有商品</string>
+    <!-- 最新揭晓 -->
+    <string name="frg_latest_announcement_title">最新揭晓</string>
+    <string name="frg_latest_announcement_text_all_sort">全部分类</string>
+    <!-- 购物车 -->
+    <string name="frg_shopping_cart_title">购物车</string>
+    <!-- 我的云购 -->
+    <string name="frg_personal_center_title">我的云购</string>
+    <string name="frg_personal_center_text_welcome">欢迎来到1元云购</string>
+
+    <string name="frg_personal_center_image_record">我的云购记录</string>
+    <string name="frg_personal_center_image_good">获得的商品</string>
+    <string name="frg_personal_center_image_picture">我的晒单</string>
+    <string name="frg_personal_center_image_message">消息中心</string>
+    <string name="frg_personal_center_image_account">账户明细</string>
+    <string name="frg_personal_center_image_address">收货地址管理</string>
+
+    <string name="frg_personal_center_btn_welcome">登录/注册</string>
+    <string name="title_activity_login">登录</string>
+
+    <!-- LoginAct-登录界面 -->
+    <string name="act_login_title">登录</string>
+    <string name="title_activity_forgive_psw">找回密码</string>
+    <string name="act_login_edit_name_hint">请输入您的手机号/邮箱</string>
+    <string name="act_login_edit_psw_hint">请输入您的密码</string>
+    <string name="act_login_btn_text">登 录</string>
+    <string name="act_login_text_forgive_psw">忘记密码？</string>
+    <string name="act_login_text_signin">新用户注册</string>
+    <string name="act_login_text_way">选择登录方式</string>
+
+    <!-- ForgivePswAct-找回密码页面 -->
+    <string name="act_forgive_psw_title">找回密码</string>
+    <string name="title_activity_identify_check">身份验证</string>
+    <string name="act_forgive_psw_edit_hint">请输入您注册的手机号/邮箱</string>
+    <string name="act_forgive_psw_btn_text">下一步</string>
+
+    <!-- ForgiveIdentifyCheckAct-身份验证页面 -->
+    <string name="act_forgive_identify_check_title">身份验证</string>
+    <string name="act_forgive_identify_check_tv_tip">已将验证码发送到你的手机，请注意查收</string>
+    <string name="act_forgive_identify_check_edit_hint">请输入系统发送给您的6位验证码</string>
+    <string name="act_forgive_identify_btn_next">下一步</string>
+    <string name="act_forgive_identify_check_tv_tip_2">如未收到验证短信，请点击重新发送。</string>
+    <string name="act_forgive_identify_check_btn_return">重新发送</string>
+    <string name="title_activity_setting_new_psw">设置新密码</string>
+
+    <!-- SettingNewPswAct-设置新密码页面 -->
+    <string name="act_setting_new_psw_title">设置新密码</string>
+    <string name="act_setting_new_psw_tv_hint">请设置8-20位的登录密码</string>
+    <string name="act_setting_new_psw_tv_is_visiable">显示密码</string>
+    <string name="act_setting_new_psw_btn_sure_setting">确认修改</string>
+    <string name="act_setting_new_psw_tv_tip">密码由8-20位半角字符（数字、字母、符号任意两种）组成，区分大小写</string>
+    <string name="title_activity_signin">注册</string>
+
+    <!-- SigninAct-注册页面 -->
+    <string name="act_signin_title">注册</string>
+    <string name="act_sigin_edit_hint">请输入您的手机号</string>
+    <string name="act_signin_btn_text">下一步</string>
+    <string name="act_signin_tv_tip">我已阅读并同意《一元云购服务协议》</string>
+    <string name="act_signin_tv_tip_hight_light">一元云购服务协议</string>
+    <string name="title_activity_signin_identify_check">身份验证</string>
+
+    <!-- SigninIdentifyCheckAct-注册-身份验证页面-->
+    <string name="act_signin_identify_check_title">身份验证</string>
+    <string name="act_signin_identify_check_tv_tip">已将验证码发送到你的手机，请注意查收</string>
+    <string name="act_signin_identify_check_edit_hint">请输入系统发送给您的6位验证码</string>
+    <string name="act_signin_identify_btn_next">下一步</string>
+    <string name="act_signin_identify_check_tv_tip_2">如未收到验证短信，请在</string>
+    <string name="act_signin_identify_check_tv_tip_3">秒后点击重新发送。</string>
+    <string name="act_signin_identify_check_btn_return">重新发送</string>
+    <string name="title_activity_setting_psw">设置密码</string>
+
+    <!-- SettingPswAct-设置密码页面 -->
+    <string name="act_setting_psw_title">设置密码</string>
+    <string name="act_setting_psw_tv_hint">请设置8-20位的登录密码</string>
+    <string name="act_setting_psw_tv_is_visiable">显示密码</string>
+    <string name="act_setting_psw_btn_sure_setting">注册完成</string>
+    <string name="act_setting_psw_tv_tip">密码由8-20位半角字符（数字、字母、符号任意两种）组成，区分大小写</string>
+    <string name="title_activity_personal_center_setting">设置</string>
+
+    <!-- PersonalCenterSettingAct-设置页面 -->
+    <string name="act_personal_center_setting">设置</string>
+    <string name="act_personal_center_setting_personal">编辑个人资料</string>
+    <string name="act_personal_center_safe_setting">安全设置</string>
+    <string name="act_personal_center_help_center">帮助中心</string>
+    <string name="act_personal_center_message_return">意见反馈</string>
+    <string name="act_personal_center_help_phone">客服热线</string>
+    <string name="act_personal_center_message_access">消息接收</string>
+    <string name="act_personal_center_clear_cache">清除缓存</string>
+    <string name="act_personal_center_version_update">版本更新</string>
+    <string name="act_personal_center_about_us">关于我们</string>
+    <string name="act_personal_center_service_protocol">服务协议</string>
+    <string name="act_personal_center_btn_signout">退出登录</string>
+    <string name="title_activity_address">地址管理</string>
+
+    <!-- AddressAct-地址管理页面 -->
+    <string name="act_address_title">地址管理</string>
+</resources>

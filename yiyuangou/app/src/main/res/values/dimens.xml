@@ -1,0 +1,161 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    
+    <!-- tb_common -->
+    <dimen name="tb_common_btn_back_height">24dp</dimen>
+    <dimen name="tb_common_btn_back_padding_left_and_right">12dp</dimen>
+    <dimen name="tb_common_delive_height">0.33dp</dimen>
+
+
+    <!-- frg-首页 -->
+    <dimen name="tb_home_rl_width">50dp</dimen>
+    <dimen name="tb_home_btn_login_height">24dp</dimen>
+    <dimen name="tb_home_btn_login_padding_left_and_right">12dp</dimen>
+    <dimen name="tb_home_btn_search_height">24dp</dimen>
+    <dimen name="tb_home_btn_search_padding_left_and_right">12dp</dimen>
+    <dimen name="tb_home_delive_height">0.33dp</dimen>
+
+    <!-- frg-所有商品 -->
+    <dimen name="tb_all_good_rl_width">50dp</dimen>
+    <dimen name="tb_all_good_btn_search_height">24dp</dimen>
+    <dimen name="tb_all_good_btn_search_padding_left_and_right">12dp</dimen>
+    <dimen name="tb_all_good_delive_height">0.33dp</dimen>
+
+    <!-- frg-最新揭晓 -->
+    <dimen name="tb_latest_announcement_rl_width">50dp</dimen>
+    <dimen name="tb_latest_announcement_btn_locate_height">24dp</dimen>
+    <dimen name="tb_latest_announcement_btn_locate_padding_left_and_right">12dp</dimen>
+    <dimen name="tb_latest_announcement_rl_all_sort_width">100dp</dimen>
+    <dimen name="tb_latest_announcement_btn_all_sort_padding_left_and_right">12dp</dimen>
+    <dimen name="tb_latest_announcement_btn_all_sort_padding_bottom">3dp</dimen>
+    <dimen name="tb_latest_announcement_delive_height">0.33dp</dimen>
+
+    <!-- frg-购物车 -->
+    <dimen name="tb_shopping_cart_delive_height">0.33dp</dimen>
+
+    <!-- frg-我的云购 -->
+    <dimen name="tb_personal_center_btn_set_height">24dp</dimen>
+    <dimen name="tb_personal_center_btn_set_padding_left_and_right">12dp</dimen>
+    <dimen name="tb_personal_center_btn_set_width">50dp</dimen>
+    <dimen name="tb_personal_center_delive_height">0.33dp</dimen>
+
+    <dimen name="frg_personal_center_rl_record_margin_top">12dp</dimen>
+    <dimen name="frg_personal_center_delive_height">0.33dp</dimen>
+    <dimen name="frg_personal_center_rl_welcome_height">170dp</dimen>
+    <dimen name="frg_personal_center_text_welcome_padding_top">50dp</dimen>
+    <dimen name="frg_personal_center_btn_welcome_width">160dp</dimen>
+    <dimen name="frg_personal_center_btn_welcome_margin_top">14dp</dimen>
+    <dimen name="frg_personal_center_rl_record_padding">12dp</dimen>
+    <dimen name="frg_personal_center_text_record_padding_left">12dp</dimen>
+
+    <dimen name="frg_personal_center_rl_good_padding">12dp</dimen>
+    <dimen name="frg_personal_center_text_good_padding_left">12dp</dimen>
+    <dimen name="frg_personal_center_rl_picture_padding">12dp</dimen>
+    <dimen name="frg_personal_center_text_picture_padding_left">12dp</dimen>
+    <dimen name="frg_personal_center_rl_message_padding">12dp</dimen>
+    <dimen name="frg_personal_center_text_message_padding_left">12dp</dimen>
+    <dimen name="frg_personal_center_rl_account_padding">12dp</dimen>
+    <dimen name="frg_personal_center_rl_account_margin_top">12dp</dimen>
+    <dimen name="frg_personal_center_text_account_padding_left">12dp</dimen>
+    <dimen name="frg_personal_center_rl_address_padding">12dp</dimen>
+    <dimen name="frg_personal_center_rl_address_margin_top">12dp</dimen>
+    <dimen name="frg_personal_center_text_address_padding_left">12dp</dimen>
+
+    <!-- MainAct -->
+    <dimen name="act_main_tab_item_image_height">30dp</dimen>
+    <dimen name="act_main_tab_item_image_width">25dp</dimen>
+    <dimen name="act_main_tab_item_image_padding_top">5dp</dimen>
+
+    <!-- LoginAct -->
+    <dimen name="act_login_ll_edit_height">100dp</dimen>
+    <dimen name="act_login_ll_edit_margin_left_right">18dp</dimen>
+    <dimen name="act_login_ll_edit_margin_top_bottom">12dp</dimen>
+    <dimen name="act_login_image_name_padding">12dp</dimen>
+    <dimen name="act_login_image_password_padding">12dp</dimen>
+    <dimen name="act_login_btn_login_margin_left_right">18dp</dimen>
+    <dimen name="act_login_btn_login_margin_top">12dp</dimen>
+    <dimen name="act_login_rl_forgive_signin_margin_top">24dp</dimen>
+    <dimen name="act_login_line_delive_height">16dp</dimen>
+    <dimen name="act_login_line_delive_width">1dp</dimen>
+    <dimen name="act_login_text_forgive_psw_margin_right">24dp</dimen>
+    <dimen name="act_login_text_signin_margin_left">24dp</dimen>
+    <dimen name="act_login_rl_way_height">200dp</dimen>
+    <dimen name="act_login_way_image_delive_width">50dp</dimen>
+    <dimen name="act_login_way_image_delive_height">1dp</dimen>
+    <dimen name="act_login_way_image_delive_left_margin_right">24dp</dimen>
+    <dimen name="act_login_way_image_delive_right_margin_left">24dp</dimen>
+    <dimen name="act_login_ll_image_way_margin_top">24dp</dimen>
+    <dimen name="act_login_btn_login_by_qq_width">48dp</dimen>
+    <dimen name="act_login_btn_login_by_qq_height">48dp</dimen>
+    <dimen name="act_login_btn_login_by_qq_margin_right">24dp</dimen>
+    <dimen name="act_login_btn_login_by_wx_width">48dp</dimen>
+    <dimen name="act_login_btn_login_by_wx_height">48dp</dimen>
+    <dimen name="act_login_btn_login_by_wx_margin_left">24dp</dimen>
+
+
+    <!-- ForgivePswAct -->
+    <dimen name="act_forgive_psw_edit_padding">12dp</dimen>
+    <dimen name="act_forgive_psw_edit_margin_left_right">18dp</dimen>
+    <dimen name="act_forgive_psw_edit_margin_top_bottom">16dp</dimen>
+    <dimen name="act_forgive_psw_btn_margin_left_right">18dp</dimen>
+
+    <!-- ForgiveIdentifyCheckAct -->
+    <dimen name="act_forgive_identify_check_tv_tip_margin_left_right">18dp</dimen>
+    <dimen name="act_forgive_identify_check_tv_tip_margin_top_bottom">16dp</dimen>
+    <dimen name="act_forgive_identify_check_edit_margin_left_right">18dp</dimen>
+    <dimen name="act_forgive_identify_check_edit_margin_bottom">16dp</dimen>
+    <dimen name="act_forgive_identify_chech_edit_padding">12dp</dimen>
+    <dimen name="act_forgive_identify_btn_next_margin_left_right">18dp</dimen>
+    <dimen name="act_forgive_identify_btn_next_margin_bottom">16dp</dimen>
+    <dimen name="act_forgive_identify_check_tv_tip_2_margin_left_right">18dp</dimen>
+    <dimen name="act_forgive_identify_check_tv_tip_2_margin_bottom">16dp</dimen>
+    <dimen name="act_forgive_identify_check_btn_return_margin_left_right">18dp</dimen>
+
+    <!-- SettingNewPswAct -->
+    <dimen name="act_setting_new_psw_edit_margin_left_right">18dp</dimen>
+    <dimen name="act_setting_new_psw_edit_margin_top_bottom">16dp</dimen>
+    <dimen name="act_setting_new_psw_edit_padding">12dp</dimen>
+    <dimen name="act_setting_new_psw_cb_margin_left">18dp</dimen>
+    <dimen name="act_setting_new_psw_btn_margin_left_right">18dp</dimen>
+    <dimen name="act_setting_new_psw_btn_margin_top_bottom">16dp</dimen>
+    <dimen name="act_setting_new_psw_tv_margin_left_right">18dp</dimen>
+
+    <!-- SigninIdentifyCheckAct -->
+    <dimen name="act_signin_identify_check_tv_tip_margin_left_right">18dp</dimen>
+    <dimen name="act_signin_identify_check_tv_tip_margin_top_bottom">16dp</dimen>
+    <dimen name="act_signin_identify_check_edit_margin_left_right">18dp</dimen>
+    <dimen name="act_signin_identify_check_edit_margin_bottom">16dp</dimen>
+    <dimen name="act_signin_identify_chech_edit_padding">12dp</dimen>
+    <dimen name="act_signin_identify_btn_next_margin_left_right">18dp</dimen>
+    <dimen name="act_signin_identify_btn_next_margin_bottom">16dp</dimen>
+    <dimen name="act_signin_identify_check_tv_tip_2_margin_left">18dp</dimen>
+    <dimen name="act_signin_identify_check_tv_tip_2_margin_right">2dp</dimen>
+    <dimen name="act_signin_identify_check_tv_tip_3_margin_left">2dp</dimen>
+    <dimen name="act_signin_identify_check_tv_tip_2_margin_bottom">16dp</dimen>
+    <dimen name="act_signin_identify_check_btn_return_margin_left_right">18dp</dimen>
+
+    <!-- SettingPswAct -->
+    <dimen name="act_setting_psw_edit_margin_left_right">18dp</dimen>
+    <dimen name="act_setting_psw_edit_margin_top_bottom">16dp</dimen>
+    <dimen name="act_setting_psw_edit_padding">12dp</dimen>
+    <dimen name="act_setting_psw_cb_margin_left">18dp</dimen>
+    <dimen name="act_setting_psw_btn_margin_left_right">18dp</dimen>
+    <dimen name="act_setting_psw_btn_margin_top_bottom">16dp</dimen>
+    <dimen name="act_setting_psw_tv_margin_left_right">18dp</dimen>
+
+    <!-- PersonalCenterSettingAct -->
+    <dimen name="act_personal_center_setting_margin_top">8dp</dimen>
+    <dimen name="act_personal_center_setting_ll_signout_padding_left_right">8dp</dimen>
+    <dimen name="act_personal_center_setting_ll_signout_padding_top_bottom">16dp</dimen>
+
+    <!-- c_setting_view -->
+    <dimen name="c_setting_view_line_delive_height">0.33dp</dimen>
+    <dimen name="c_setting_view_rl_padding_left_right">8dp</dimen>
+    <dimen name="c_setting_view_rl_padding_top_bottom">12dp</dimen>
+    <dimen name="c_item_setting_sub_text_margin_left">12dp</dimen>
+    <dimen name="c_item_setting_image_width_height">16dp</dimen>
+</resources>

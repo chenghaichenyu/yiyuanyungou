@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/common_orange</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">@color/common_orange</color>
+
+
+    <color name="bg_layout">#ffffff</color>
+    <color name="bg_root">#fff4f4f4</color>
+
+    <color name="common_white">#ffffff</color>
+    <color name="common_orange">#ffff6600</color>
+    <color name="common_gray">#ff888888</color>
+
+    <!--<color name="text_white">#ffffff</color>-->
+
+    <color name="bg_divide_line">#dddddd</color>
+
+    <color name="btn_normal">@color/common_white</color>
+    <color name="btn_selected">#dedede</color>
+
+    <color name="btn_login_normal">@color/common_orange</color>
+    <color name="btn_login_selected">#cc5200</color>
+
+    <!--<color name="main_tab_text">#555555</color>-->
+    <color name="bg_color">#ffeae9e9</color>
+
+    <color name="tab_text_normal">#ff888888</color>
+    <color name="tab_text_selected">@color/common_orange</color>
+
+    <color name="bg_setting_right_text">#ffa3a3a3</color>
+
+    <color name="tips_text">#ffdddddd</color>
+    <color name="signature_text">#ffbbbbbb</color>
+    <color name="black_text">#ff666666</color>
+    <color name="gray_text">#ff999999</color>
+    <color name="white_text">#ffffffff</color>
+    <color name="red_text">#ffff0000</color>
+    <color name="green_text">#ff33bb00</color>
+    <color name="blue_text">#22AAFF</color>
+
+    <!--<color name="viewfinder_mask">#60000000</color>-->
+    <!--<color name="result_view">#b0000000</color>-->
+    <!--<color name="viewfinder_frame">#ff88ae00</color>-->
+    <!--<color name="possible_result_points">#c0ffff00</color>-->
+    <!--<color name="transparent">#00000000</color>-->
+
+    <!--<color name="tv_color_stream">#ff888888</color>-->
+    <!--<color name="red">#ffff5959</color>-->
+    <!--<color name="white_gray">#ffeeeeee</color>-->
+    <!--<color name="white">#ffffffff</color>-->
+    <!--<color name="oreder_success">#ff85b200</color>-->
+    <!--<color name="black">#ff000000</color>-->
+    <!--<color name="item_left_color">#ff888888</color>-->
+    <!--<color name="citem_tx_color">#ffeae8e9</color>-->
+    <!--<color name="tx_color">#ff888888</color>-->
+    <!--<color name="setting_tx_color">#ff333333</color>-->
+    <!--<color name="setting_background">#fff4f4f4</color>-->
+    <!--<color name="login_background">#fff7f7f7</color>-->
+    <!--<color name="tab_background">#fff7f7f7</color>-->
+    <!--<color name="home_background">#fff0f0f0</color>-->
+    <!--<color name="main_background">#ffffffff</color>-->
+    <!--<color name="background">#fff7f7f7</color>-->
+    <!--<color name="black_alpha_text">#48666666</color>-->
+    <!--<color name="background_divider">#ffe6e6e6</color>-->
+    <!--<color name="declare_text">#ffbbbbbb</color>-->
+    <!--<color name="orange_alpha_text">#48ff6600</color>-->
+    <!--<color name="cyan_text">#ff22aaff</color>-->
+    <!--<color name="link_text">#ff49b8ff</color>-->
+    <!--<color name="divider">#fff0f0f0</color>-->
+    <!--<color name="bottom_text">#ffa7a7a7</color>-->
+    <!--<color name="click_bg_color">#ffe6e6e6</color>-->
+    <!--<color name="cropper_back">#0a000000</color>-->
+    <!--<color name="dimgrey">#ff696969</color>-->
+    <!--<color name="gray">#ff808080</color>-->
+    <!--<color name="blue">#ff0079ff</color>-->
+    <!--<color name="dimorange">#ffcc5200</color>-->
+    <!--<color name="black_alpha_background">#56000000</color>-->
+    <!--<color name="black_alpha_background_dim">#9f000000</color>-->
+    <!--<color name="white_alpha_background_simple">#9fffffff</color>-->
+    <!--<color name="white_alpha_background">#8fffffff</color>-->
+    <!--<color name="white_alpha_light_background">#dfffffff</color>-->
+    <!--<color name="personal_page_selector_background">#fffafafa</color>-->
+    <!--<color name="limit_goods_background">#ff24cba8</color>-->
+    <!--<color name="button_bg_qqlogin_normal">#ffd5ecf9</color>-->
+    <!--<color name="button_bg_qqlogin_press">#ffcfd9e1</color>-->
+    <!--<color name="button_enable_fasle">#ffe5e5e5</color>-->
+    <!--<color name="dimRed">#ffdd4c4c</color>-->
+    <!--<color name="stroke">#ffdedede</color>-->
+    <!--<color name="stroke_light">#ffe5e5e5</color>-->
+    <!--<color name="subtitle">#ff333333</color>-->
+    <!--<color name="title_text_state_normal">#ffffffff</color>-->
+    <!--<color name="title_text_state_pressed">#ffe5e5e5</color>-->
+    <!--<color name="share_dialog_background">#fff5f5f5</color>-->
+</resources>

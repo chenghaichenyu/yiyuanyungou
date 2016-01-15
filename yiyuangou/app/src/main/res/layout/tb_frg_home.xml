@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:showDividers="none"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bg_layout"
+        app:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/common_orange">
+
+            <RelativeLayout
+                android:id="@+id/tool_bar_btn_login"
+                android:layout_width="@dimen/tb_home_rl_width"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tb_home_btn_login_height"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/tb_home_btn_login_padding_left_and_right"
+                    android:layout_marginRight="@dimen/tb_home_btn_login_padding_left_and_right"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tb_frg_home_login" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/tool_bar_image_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tb_home_title" />
+
+            <RelativeLayout
+                android:id="@+id/tool_bar_btn_search"
+                android:layout_alignParentRight="true"
+                android:layout_width="50dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/tb_home_btn_search_height"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/tb_home_btn_search_padding_left_and_right"
+                    android:layout_marginRight="@dimen/tb_home_btn_search_padding_left_and_right"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tb_frg_home_search" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tb_home_delive_height"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bg_divide_line" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+
+

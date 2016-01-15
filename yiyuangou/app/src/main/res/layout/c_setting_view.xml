@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  android:background="@color/bg_layout"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_top_line_full"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/c_setting_view_line_delive_height"
+        android:background="@color/bg_divide_line"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/c_setting_view_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/c_setting_view_rl_padding_left_right"
+        android:paddingRight="@dimen/c_setting_view_rl_padding_left_right"
+        android:paddingTop="@dimen/c_setting_view_rl_padding_top_bottom"
+        android:paddingBottom="@dimen/c_setting_view_rl_padding_top_bottom">
+
+        <TextView
+            android:id="@+id/item_setting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textColor="@color/black_text"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_mid" />
+
+        <TextView
+            android:id="@+id/item_setting_sub_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_little"
+            android:textColor="@color/gray_text"
+            android:text="sub_text"
+            android:layout_marginLeft="@dimen/c_item_setting_sub_text_margin_left"
+            android:layout_toRightOf="@id/item_setting_text"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/item_setting_image"
+            android:layout_width="@dimen/c_item_setting_image_width_height"
+            android:layout_height="@dimen/c_item_setting_image_width_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/next"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_bottom_line_full"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/c_setting_view_line_delive_height"
+        android:background="@color/bg_divide_line"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!--18px-->
+    <dimen name="text_less_little">10.58sp</dimen>
+    <!--20px-->
+    <dimen name="text_little">11.85sp</dimen>
+    <!--24px-->
+    <dimen name="text_small">14.22sp</dimen>
+    <!--26px-->
+    <dimen name="text_less_mid">15.41sp</dimen>
+    <!--28px-->
+    <dimen name="text_mid">16.59sp</dimen>
+    <!--32px-->
+    <dimen name="text_big">18.96sp</dimen>
+    <!--36px-->
+    <dimen name="text_large">21.33sp</dimen>
+
+    <dimen name="text_toolbar_title">18.96sp</dimen>
+</resources>

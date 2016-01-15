@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="SettingView">
+        <attr name="text" format="string"></attr>
+        <attr name="sub_text" format="string"></attr>
+        <attr name="show_view_top_full" format="boolean"></attr>
+        <attr name="show_view_bottom_full" format="boolean"></attr>
+        <attr name="image_src" format="reference" ></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="border_width" format="dimension"></attr>
+        <attr name="inside_color" format="color"></attr>
+        <attr name="outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <!--<declare-styleable name="AddressItemView">-->
+        <!--<attr name="name" format="string"/>-->
+        <!--<attr name="phone" format="string"/>-->
+        <!--<attr name="detail_address" format="string"/>-->
+        <!--<attr name="isdefault" format="boolean"/>-->
+    <!--</declare-styleable>-->
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActMainActivity"
+    tools:showIn="@layout/act_main">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/act_main_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize" />
+
+    <FrameLayout
+        android:id="@+id/act_main_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize">
+
+    </FrameLayout>
+
+
+    <!--<include-->
+        <!--layout="@layout/c_divide_line"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/c_divide_line_horizontal_height"-->
+        <!--android:layout_above="@+id/act_main_tab_host" />-->
+
+    <android.support.v4.app.FragmentTabHost
+        android:id="@+id/act_main_tab_host"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_layout"
+        android:paddingTop="8dp">
+
+
+        <FrameLayout
+            android:id="@+id/act_main_layout_frame"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="bottom"></FrameLayout>
+
+    </android.support.v4.app.FragmentTabHost>
+
+</RelativeLayout>

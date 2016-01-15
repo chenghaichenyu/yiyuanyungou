@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent" android:layout_height="200dp"-->
+    <!--android:orientation="vertical"-->
+    <!--android:background="#9b26c6">-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/cardview"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="12dp"-->
+        <!--card:cardElevation="0dp"-->
+        <!--card:cardMaxElevation="0dp"-->
+        <!--card:cardCornerRadius="5dp"-->
+        <!--card:cardPreventCornerOverlap="true"-->
+        <!--card:cardUseCompatPadding="true"-->
+        <!--android:background="#777777"-->
+        <!--xmlns:card="http://schemas.android.com/apk/res-auto">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:id="@+id/test_textview"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="1"/>-->
+            <!--<ImageView-->
+                <!--android:id="@+id/test_iamgeview"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="20dp"/>-->
+        <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="160dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_marginLeft="12dp"
+        xmlns:card="http://schemas.android.com/apk/res-auto"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        card:cardElevation="0dp"
+        card:cardMaxElevation="0dp"
+        card:cardCornerRadius="5dp"
+        card:cardPreventCornerOverlap="true"
+        card:cardUseCompatPadding="true"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/test_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/all_good_normal"/>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/test_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="jiashiqi"
+                    android:textColor="#121212"
+                    android:textSize="@dimen/text_small"/>
+
+                <TextView
+                    android:id="@+id/item_frg_home_good_rv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:textColor="#121212"
+                    android:textSize="@dimen/text_small"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
